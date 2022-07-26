@@ -1,0 +1,94 @@
+#InvestStrategy #SubInner .strategy-container1 {
+    display: flex;
+    text-align: center;
+}
+
+.strategy-container1 .strategy-circle1 {
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgba(59, 75, 89, 0.8);
+    color: #efefef;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.strategy-container1 .strategy-circle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(59, 75, 89, 0.8);
+    color: #efefef;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+#strategy-arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-right: 10px;
+    color: rgba(59, 75, 89, 0.8);
+}
+
+
+.strategy-container2 .strategy-info {
+    width: 220px;
+    height: 30px;
+    background-color: rgb(36, 136, 223);
+    color: #efefef;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.strategy1 {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 765px) {
+    #InvestStrategy .strategy1 {
+        margin: 0 auto;
+
+    }
+
+    .strategy-container1 {
+        width: 100%;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+
+    .strategy-container1 .strategy-circle1 {
+        width: 20%;
+        height: 100%;
+        padding: 3%;
+        margin: 1%;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 8px;
+    }
+
+    .strategy-container1 .strategy-circle2 {
+        width: 25%;
+        height: 100%;
+        padding: 5% 0;
+        margin: 1%;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 8px;
+    }
+
+    #strategy-arrow {
+        height: 10%;
+        margin-top: 5%;
+    }
+}

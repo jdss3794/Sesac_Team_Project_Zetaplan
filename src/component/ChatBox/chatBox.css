@@ -1,0 +1,100 @@
+/* ChatBox : Contact Us */
+
+#ChatBox {
+    width: 180px;
+    height: 240px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+    background-color: #3B4B59;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+#ChatBox .chatbox-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #efefef;
+    margin: 14px 0 12px;
+}
+
+#ChatBox .chatbox-content {
+    text-align: left;
+    margin: 0 24px;
+}
+
+#ChatBox .chatbox-content .chatbox-subtitle {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #efefef;
+    margin: 2px 0;
+    position: relative;
+    padding-left: 20px;
+    letter-spacing: 1.2;
+}
+
+#ChatBox .chatbox-content .chatbox-subtitle svg {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+#ChatBox .chatbox-content p {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #efefef;
+    margin: 8px 0;
+    letter-spacing: 1.2;
+}
+
+#ChatBox .chatbox-content .chatbox-subtitle-paragraph {
+    margin-top: 5px;
+}
+
+#ChatBox .chatbox-btn {
+    width: 125px;
+    height: 36px;
+    line-height: 32px;
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #F27B35;
+    border: 2px solid #efefef;
+    border-radius: 2rem;
+    margin: 16px auto 12px;
+    padding-right: 14px;
+    box-sizing: border-box;
+    position: relative;
+    color: #efefef;
+}
+
+#ChatBox .chatbox-btn svg {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+@media (max-width: 765px) {
+    #ChatBox {
+        width: 120px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        box-shadow: none;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #ChatBox .chatbox-title {
+        display: none;
+    }
+    #ChatBox .chatbox-content {
+        display: none;
+    }
+    #ChatBox .chatbox-btn {
+        box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    }
+}

@@ -1,0 +1,166 @@
+#IndustryConfirmList0,
+#IndustryConfirmList1,
+#IndustryConfirmList2,
+.industry-confirm-content {
+    color: #2c3540;
+    width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.industry-confirm-sub {
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    font: 18px;
+}
+
+.industry-confirm-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#IndustryConfirmList0 {
+    color: #2c3540;
+    width: 1200px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+#IndustryConfirmList0>p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #2c3540;
+}
+
+#IndustryConfirmList0>p strong {
+    font-weight: bold;
+}
+
+#IndustryConfirmList0>span {
+    display: block;
+    font-size: 14px;
+    color: #2c3540;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+#IndustryConfirmList0>h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#IndustryConfirmList0>h6 {
+    text-align: center;
+    font-size: 14px;
+    color: #BF0628;
+    margin: 20px 0;
+}
+
+#IndustryConfirmList0 .industry-confirm0-img {
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+#IndustryConfirmList0 .industry-confirm0-img img {
+    width: 100%;
+}
+
+#IndustryConfirmItem {
+    width: 200px;
+    height: 80px;
+    margin: 40px;
+    position: relative;
+    border: 1px solid rgba(44, 53, 64, 0.1);
+    overflow: hidden;
+}
+
+#IndustryConfirmItem .industry-confirm-list-img {
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#IndustryConfirmItem .industry-confirm-list-img img {
+    width: 180px;
+    height: auto;
+    max-height: 100%;
+}
+
+#IndustryConfirmItem .industry-confirm-list-title {
+    display: block;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 14px;
+    text-align: center;
+    color: #efefef;
+    background-color: rgba(44, 53, 64, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#IndustryConfirmItem:hover .industry-confirm-list-title {
+    display: block;
+}
+
+.industry-confirm-content>p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#IndustryConfirmHistory {
+    width: 1200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(44, 53, 64, 0.4);
+    text-align: right;
+}
+
+#IndustryConfirmHistory button {
+    font-size: 14px;
+    color: #2c3540;
+    margin: 0 20px;
+}
+
+#IndustryConfirmHistory svg {
+    padding-top: 3px;
+    margin: 0 5px;
+}
+
+#IndustryConfirmDetail #Header {}
+
+#IndustryConfirmDetail p {
+    font-size: 14px;
+}
+
+#IndustryConfirmDetail .industry-confirm-content-img {
+    max-width: 700px;
+}
+
+#IndustryConfirmDetail .industry-confirm-content-img img {
+    width: 100%;
+}
+
+@media (max-width: 765px) {
+    #IndustryConfirmList0,
+    #IndustryConfirmList1,
+    #IndustryConfirmList2,
+    .industry-confirm-content {
+        width: 90%;
+    }
+    #IndustryConfirmList0 .industry-confirm0-img {
+        width: 90%;
+    }
+    #IndustryConfirmHistory {
+        width: 100%;
+    }
+    #IndustryConfirmDetail .industry-confirm-content-img {
+        width: 90%;
+    }
+}

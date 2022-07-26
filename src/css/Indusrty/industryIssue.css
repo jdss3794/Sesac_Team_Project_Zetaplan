@@ -1,0 +1,11 @@
+/* Industry 산업별이슈 CSS */
+/* #IndustryIssue  */
+
+@media screen and (max-width: 765px) {
+
+    .issue-list {
+      width: 95%;
+      margin: 0 auto;
+    }
+}
+  

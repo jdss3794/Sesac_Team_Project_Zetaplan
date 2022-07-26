@@ -1,0 +1,95 @@
+/* MainFullPageFooter */
+#FullPageFooter {
+  height: 100%;
+  width: 100%;
+  background: url(./../../../../public/img/mainFullpage/mainFullpageFooter/footerbackground.png) no-repeat top / cover;
+  overflow: hidden;
+}
+
+#FullPageFooter .contact {
+  position: relative;
+  width: 500px;
+  height: 90px;
+  left: 50%;
+  transform: translateX(-250px);
+  top: 80px;
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 5px;
+}
+
+#FullPageFooter .contact h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 90px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#FullPageFooter .IoIosArrowDroprightCircle {
+  position: absolute;
+  right: 40px;
+  top: 3px;
+  font-size: 30px;
+}
+
+#FullPageFooter .company_list {
+  height: 25px;
+  line-height: 25px;
+  color: #ffffff;
+  background: rgba(217, 217, 217, 0.3);
+  width: 80px;
+  text-align: center;
+  font-weight: 500;
+
+  position: relative;
+  top: 200px;
+  left: 30px;
+}
+/* =======================================================================swiper */
+
+.cooperative_list .swiper {
+  position: relative;
+  top: 200px;
+  width: 1380px;
+  height: 80px;
+  background: rgba(217, 217, 217, 0.3);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cooperative_list .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 50px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.cooperative_list .swiper-slide img {
+  display: block;
+  width: auto;
+  height: 25px;
+
+  object-fit: cover;
+}
+
+@media (max-width: 765px) {
+  .FullPageFooter_img {
+    display: none;
+  }
+}

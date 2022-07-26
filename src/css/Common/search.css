@@ -1,0 +1,256 @@
+#Search .search-header {
+    width: 100%;
+    height: 200px;
+    margin-top: 78px;
+    z-index: 999;
+}
+
+#Search .search-header .search-header-banner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 999;
+    background: url(./../../../public/img/common/Subbanner/sub_banner1.png) no-repeat center / cover;
+    line-height: 200px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+
+#Search .inner-search-head,
+#Search .search-list {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#Search .inner-search-head span {
+    border-left: 1px solid #2c3540;
+    border-top: 1px solid #2c3540;
+    border-bottom: 1px solid #2c3540;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgba(44, 53, 64, 0.1);
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+#Search .inner-search-head span:last-child {
+    border-right: 1px solid #2c3540;
+}
+
+.inner-search-sub {
+    width: 140px;
+}
+
+.inner-search-num {
+    width: 100px;
+}
+
+.inner-search-title {
+    width: 618px;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.inner-search-date {
+    width: 140px;
+}
+
+#Search .search-lists {
+    display: flex;
+}
+
+#Search .search-list {
+    width: 1000px;
+    height: 30px;
+}
+
+#Search .search-list a {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#Search .search-list span {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    line-height: 25px;
+    border: 1px solid rgba(44, 53, 64, 0.1);
+}
+
+#Search .search-list .inner-search-title {
+    text-align: left;
+}
+
+#Search .search-list .inner-search-date {
+    width: 140px;
+}
+
+#Search .inner-search-result {
+    margin-bottom: 80px;
+}
+
+
+/* 게시판 검색 CSS */
+
+.inner-search-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.inner-search-box>h2 {
+    display: inline-block;
+    width: 400px;
+}
+
+.board-search-box {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.board-search-box .board-search-box-wrap {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #efefef;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+}
+
+.board-search-box .search-input {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.board-search-box .delete-button {
+    cursor: pointer;
+    color: #fff;
+    font: 12px;
+    text-align: center;
+}
+
+.board-search-box .search-submit-btn {
+    border-radius: 32px;
+    padding: 7px 12px;
+}
+
+.auto-search-box {
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    width: 245px;
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: #efefef;
+    z-index: 999;
+}
+
+.auto-search-lists {
+    padding: 0 4px;
+}
+
+.auto-search-list {
+    width: 100%;
+    color: #2c3540;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.1);
+}
+
+.auto-search-list.selected {
+    background-color: lightgray;
+}
+
+.auto-search-list:hover {
+    background-color: lightgray;
+}
+
+.board-search-selector {
+    border: 2px solid #2c3540;
+    border-radius: 32px;
+}
+
+.board-search-selector option {
+    text-align: center;
+    font-size: 16px;
+}
+
+.board-search-selector option:focus {
+    outline: none;
+}
+
+.board-lists {
+    cursor: pointer;
+}
+
+.board-lists:hover {
+    background-color: #f9fafb;
+}
+
+@media (max-width: 765px) {
+    #Search .inner-search-head {
+        width: 100%;
+    }
+    .inner-search-sub {
+        width: 20%;
+    }
+    .inner-search-num {
+        width: 10%;
+        overflow: hidden;
+    }
+    .inner-search-title {
+        width: 50%;
+    }
+    .inner-search-date {
+        width: 20%;
+    }
+    #Search .search-list {
+        width: 100%;
+    }
+    #Search .search-list .inner-search-date {
+        width: 20%;
+    }
+    #Search .inner-search-result {
+        margin-bottom: 80px;
+    }
+    /* 게시판 검색 CSS */
+    .inner-search-box>h2 {
+        width: 90%;
+    }
+    .board-search-box .board-search-box-wrap {
+        width: 50%;
+    }
+    .auto-search-box {
+        left: 16px;
+        width: 80%;
+    }
+    .board-search-box-wrap .search-input {
+        width: 100%;
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    .board-search-box-wrap .search-input::placeholder {
+        display: none;
+    }
+}

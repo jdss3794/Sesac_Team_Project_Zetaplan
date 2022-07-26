@@ -1,0 +1,67 @@
+#history1, 
+#history2, 
+#history3 {
+    color:#2c3540e6;
+    margin: 50px 30px;
+}
+#history1 .history, 
+#history2 .history, 
+#history3 .history {
+    position: relative;
+}
+#history1 .history-year, 
+#history2 .history-year,
+#history3 .history-year{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#history1 .history-month,
+#history2 .history-month,
+#history3 .history-month{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 170px;
+    line-height: 50px;
+}
+
+
+#history1 .history-des, 
+#history2 .history-des,
+#history3 .history-des{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+#history .history-line {
+    position: absolute;
+    left:-35px;
+    top:15px;
+    width: 1px;
+    height: calc(100% + 20px);
+    background-color: rgb(153, 153, 153);
+}
+
+@media screen and (max-width: 765px) {
+    #history1 .history-month,
+#history2 .history-month,
+#history3 .history-month{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+#history1 .history-des, 
+#history2 .history-des,
+#history3 .history-des{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+}

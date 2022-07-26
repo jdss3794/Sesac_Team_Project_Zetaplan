@@ -1,0 +1,175 @@
+/* Industry 가치평가 CSS */
+
+#IndustryValue {
+    color: #2c3540;
+  }
+  
+#IndustryValue .industry-value-section {
+    margin: 70px 0;
+  }
+#IndustryValue .industry-value-section>div {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+#IndustryValue #SubInner .industry-value-section1 .industry-value-title-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#IndustryValue .industry-value-section1 .industry-value-title-container .industry-value-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2c3540;
+    margin-bottom: 24px;
+  }
+
+  #IndustryValue .industry-value-part {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    font-weight: bold;
+  }
+
+  #IndustryValue .industry-value-part::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1.8px;
+    background-color: rgba(44, 53, 64, 0.5);
+    border-radius: 16px;
+    position: absolute;
+    right: -70px;
+    top: 50%;
+  }
+  
+  #IndustryValue .industry-value-table-title{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  #IndustryValue .industry-value-part-txt {
+      font-size: 14px;
+      line-height: 1.7;
+      margin-left: 10px;
+      margin-top: 30px;
+  }
+
+  /* ============ value slider && img ========== */
+
+#IndustryValue img{
+  width: 1000px;
+  height: 300px;
+}
+#IndustryValue #img0{
+  width: 1000px;
+  height: 400px;
+  margin: 30px 0;
+}
+#IndustryValue #img4{
+  height: 400px;
+}
+
+
+/* ========table======= */
+
+#IndustryValue table {
+  width: 100%;
+  border: 2px solid #2c3540;
+  text-align: left;
+  border-collapse: collapse;
+}
+#IndustryValue table th,
+#IndustryValue table td {
+  border: 2px solid #2c3540;
+}
+#IndustryValue table th {
+  text-align: center;
+  background-color: rgba(59, 75, 89, 0.8);
+  color: #efefef;
+  font-size: 16px;
+  padding: 20px;
+}
+#IndustryValue table td {
+  padding: 10px 10px 10px;
+ 
+}
+#IndustryValue #value-table td{
+  text-align: center;
+}
+
+#IndustryValue table dt {
+  font-weight: bold;
+}
+#IndustryValue table dd {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+
+/* process 절차 동그라미 */
+.process-box{
+  display: flex;
+  align-items: center;
+  box-sizing:border-box;
+  margin-top: 1/*  */0px;
+
+}
+.process-circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(59, 75, 89, 0.8);
+  color: #efefef;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.pocess-des{
+  font-size: 14px;
+}
+.process-num{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#process-arrow{
+  width: 30px;
+  height: 30px;
+  margin-top: 20px ;
+  margin-right: 10px;
+  color: rgba(59, 75, 89, 0.8);
+
+}
+
+@media (max-width: 765px) {
+  #IndustryValue {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  #IndustryValue img{
+    width: 100%;
+  }
+  .pocess-des{
+    font-size: 10px;
+  }
+  .process-box{
+    flex-wrap: wrap;
+  }
+.process-circle{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+
+  }
+}

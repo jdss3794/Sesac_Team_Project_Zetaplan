@@ -1,0 +1,27 @@
+.detail-container table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: left;
+}
+.detail-container table th,
+.detail-container table td {
+  border: 1px solid #ccc;
+}
+.detail-container table th {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(204, 204, 204, 0.2);
+}
+
+.detail-container-header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.detail-container-header-view {
+  padding-right: 10px;
+}

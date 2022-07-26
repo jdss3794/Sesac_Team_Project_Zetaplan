@@ -1,0 +1,99 @@
+/* 해외진출 사업 */
+
+.abroad-title {
+  position: relative;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 34px;
+  color: #2c3540;
+}
+.abroad-title::after {
+  position: absolute;
+  top: 50%;
+  right: -70px;
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1.8px;
+  background-color: rgba(44, 53, 64, 0.5);
+  border-radius: 16px;
+}
+.abroad-sub-title {
+  font-size: 1rem;
+  margin: 0 5px 20px 5px;
+  font-weight: bold;
+}
+.abroad-content-box {
+  margin: 64px 0 70px;
+}
+.abroad-content-img img {
+  max-width: 1000px;
+}
+.abroad-desc {
+  color: #2c3540;
+  font-size: 0.875rem;
+  line-height: 160%;
+  margin: 0 10px 19px 10px;
+}
+.abroad-info-img {
+  max-width: 800px;
+}
+.abroad-network-section {
+  margin-bottom: 32px;
+}
+.abroad-network {
+  margin-bottom: 52px;
+}
+.network-table {
+  border: 1px solid #ddd;
+  font-size: 0.875rem;
+  color: #2c3540;
+}
+.network-table thead {
+  border-bottom: 1px solid #ddd;
+}
+.network-table thead tr th, .network-table tbody tr td {
+  padding: 10px 0;
+}
+.network-table tbody tr {
+  border-bottom: 1px solid #ddd;
+  line-height: 150%;
+}
+.network-table tbody tr td:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-right: 1px solid #ddd; */
+  text-align: center;
+  font-weight: bold;
+  padding: 18px;
+}
+.network-table tbody tr td:last-child {
+  padding: 20px;
+}
+.network-table tbody tr td ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.network-table .network-img {
+  width: 145px;
+  height: auto;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 765px) {
+  .abroad-title {
+    margin-bottom: 42px;
+  }
+  .abroad-content-box {
+    margin-bottom: 46px;
+    margin-top: 0;
+  }
+  .abroad-content-img {
+    width: 100%;
+  }
+  .abroad-content-img img {
+    width: 100%;
+  }
+}

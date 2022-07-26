@@ -1,0 +1,156 @@
+/* ====신용평가 ==== */
+
+
+#Industrycredit1,
+#Industrycredit2,
+#Industrycredit3,
+#Industrycredit4,
+#Industrycredit5
+ {
+    color: #2c3540;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 20px 0 50px;
+}
+
+#Industrycredit1 .industry-credit-sub,
+#Industrycredit2 .industry-credit-sub,
+#Industrycredit3 .industry-credit-sub,
+#Industrycredit4 .industry-credit-sub,
+#Industrycredit5 .industry-credit-sub{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0 20px;
+}
+
+#Industrycredit1 .industry-credit-des,
+#Industrycredit2 .industry-credit-des,
+#Industrycredit3 .industry-credit-des, 
+#Industrycredit4 .industry-credit-des,
+#Industrycredit5 .industry-credit-des {
+    font-size: 14px;
+    margin: 8px;
+    line-height: 1.6;
+}
+
+#Industrycredit4 .industry-credit-des .strong {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.industry-credit-img {
+    width: 800px;
+}
+
+.industry-credit-img img {
+    width: 100%;
+}
+
+/* #Industrycredit1 .industry-credit1-refer {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#Industrycredit2 {
+    color: #2c3540;
+}
+
+#Industrycredit2 .industry-credit2-sub {
+    font-size: 18px;
+    margin: 25px 0 15px;
+}
+
+#Industrycredit2 .industry-credit2-sub-detail {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 5px;
+}
+
+#Industrycredit2 .industry-credit2-des {
+    font-size: 14px;
+    margin: 8px;
+    line-height: 1.8;
+}
+
+#Industrycredit2 .industry-credit2-refer {
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#Industrycredit2 .industry-credit2-img {
+    margin-bottom: 20px;
+} 
+
+#Industrycredit3 .industry-credit3-sub {
+    font-size: 18px;
+    margin: 25px 0 15px;
+}
+*/
+
+#Industrycredit .industry-credit-refer {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#Industrycredit1,
+#Industrycredit2,
+#Industrycredit3, 
+#Industrycredit4, 
+#Industrycredit5 .last-des {
+    margin-top: 15px;
+}
+
+/* #Industrycredit1 #credit-btn,
+#Industrycredit2 #credit-btn,
+#Industrycredit3 #credit-btn,
+#Industrycredit4 #credit-btn,
+#Industrycredit5 #credit-btn{
+    margin: auto;
+} */
+
+@media (max-width: 765px) {
+    #Industrycredit1 .industry-credit-des,
+#Industrycredit2 .industry-credit-des,
+#Industrycredit3 .industry-credit-des, 
+#Industrycredit4 .industry-credit-des,
+#Industrycredit5 .industry-credit-des {
+    width: 90%;
+}
+#Industrycredit1 .industry-credit-sub,
+#Industrycredit2 .industry-credit-sub,
+#Industrycredit3 .industry-credit-sub,
+#Industrycredit4 .industry-credit-sub,
+#Industrycredit5 .industry-credit-sub{
+    width: 90%;
+}
+.industry-credit-img {
+    width: 100%;
+}
+
+
+#Industrycredit1,
+#Industrycredit2,
+#Industrycredit3,
+#Industrycredit4,
+#Industrycredit5{
+    width: 95%;
+    margin: auto;
+}
+#Industrycredit1 .submit-btn-group,
+#Industrycredit2 .submit-btn-group,
+#Industrycredit3 .submit-btn-group,
+#Industrycredit4 .submit-btn-group,
+#Industrycredit5 .submit-btn-group{
+    margin: auto;
+    position: relative;
+    left: -25%;
+}
+.detail-tab-lists{
+    overflow: hidden;
+}
+}

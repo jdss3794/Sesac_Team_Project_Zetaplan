@@ -1,0 +1,7 @@
+@media (max-width: 765px) {
+  .login-button {
+    bottom: 4%;
+    right: 3%;
+    font-size: 0.37rem;
+  }
+}

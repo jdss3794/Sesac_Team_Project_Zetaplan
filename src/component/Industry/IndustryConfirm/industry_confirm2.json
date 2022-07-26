@@ -1,0 +1,71 @@
+[{
+        "id": 18,
+        "name": "신기술인증 산업NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 19,
+        "name": "신기술인증 건설NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 20,
+        "name": "신기술인증 교통NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 21,
+        "name": "신기술인증 보건NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 22,
+        "name": "신기술인증 환경NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 23,
+        "name": "신기술인증 전력NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 24,
+        "name": "신기술인증 방재NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 25,
+        "name": "신기술인증 농림식품NET",
+        "img": "/img/Industry/IndustryConfirm/confirm20.png"
+    },
+    {
+        "id": 26,
+        "name": "신제품인증",
+        "img": "/img/Industry/IndustryConfirm/confirm21.png"
+    },
+    {
+        "id": 27,
+        "name": "성능인증",
+        "img": "/img/Industry/IndustryConfirm/confirm22.png"
+    },
+    {
+        "id": 28,
+        "name": "녹색기술인증",
+        "img": "/img/Industry/IndustryConfirm/confirm23.bmp"
+    },
+    {
+        "id": 29,
+        "name": "환경표지인증(환경마크)",
+        "img": "/img/Industry/IndustryConfirm/confirm24.png"
+    },
+    {
+        "id": 30,
+        "name": "K마크",
+        "img": "/img/Industry/IndustryConfirm/confirm25.jpg"
+    },
+    {
+        "id": 31,
+        "name": "조달청 우수제품제도",
+        "img": "/img/Industry/IndustryConfirm/confirm26.bmp"
+    }
+]

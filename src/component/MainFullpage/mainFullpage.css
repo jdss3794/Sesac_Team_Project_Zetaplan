@@ -1,0 +1,23 @@
+/* Fullpage Main Area */
+
+#FullpageMain {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.swiper-wrap .mySwiper .swiper-slide {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.swiper-wrap .mySwiper img {
+    width: 100%;
+    height: auto;
+}
+
+#FullpageMain #SubChatBox {
+    right: 40px;
+    bottom: 40px;
+}

@@ -1,0 +1,32 @@
+
+#IndustryIssue .issue-list{
+    font-size:0.875rem;
+   /*  margin:3rem auto;
+    width:1000px; */
+}
+#IndustryIssue .issue-list>li{
+    padding:0.5rem 1rem;
+    border-bottom:1px solid #ccc;
+    display:flex;
+}
+#IndustryIssue .id-name{
+        width:4rem;
+        color:#333
+    }
+#IndustryIssue .list-body{
+        margin-left:1.5rem;
+        width:50rem;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        color:#666;
+        text-align:left;
+    }
+#IndustryIssue .list-body:hover{
+        color:#000;
+}
+
+#IndustryIssue .listBody:hover:hover{
+        background:rgba(0,0,0,.1);
+        cursor:pointer;
+}

@@ -1,0 +1,92 @@
+[{
+        "id": 0,
+        "name": "기업부설연구소",
+        "img": "/img/Industry/IndustryConfirm/confirm1.png"
+    },
+    {
+        "id": 1,
+        "name": "벤처기업",
+        "img": "/img/Industry/IndustryConfirm/confirm2.png"
+    },
+    {
+        "id": 2,
+        "name": "이노비즈기업",
+        "img": "/img/Industry/IndustryConfirm/confirm3.bmp"
+    },
+    {
+        "id": 3,
+        "name": "메인비즈기업",
+        "img": "/img/Industry/IndustryConfirm/confirm4.bmp"
+    },
+    {
+        "id": 4,
+        "name": "ISO9001",
+        "img": "/img/Industry/IndustryConfirm/confirm5.png"
+    },
+    {
+        "id": 5,
+        "name": "ISO14001",
+        "img": "/img/Industry/IndustryConfirm/confirm6.png"
+    },
+    {
+        "id": 6,
+        "name": "수출유망중소기업",
+        "img": "/img/Industry/IndustryConfirm/confirm7.png"
+    },
+    {
+        "id": 7,
+        "name": "서비스품질우수기업",
+        "img": "/img/Industry/IndustryConfirm/confirm8.bmp"
+    },
+    {
+        "id": 8,
+        "name": "소재부품전문기업",
+        "img": "/img/Industry/IndustryConfirm/confirm9.gif"
+    },
+    {
+        "id": 9,
+        "name": "두뇌역량강화우수기업",
+        "img": "/img/Industry/IndustryConfirm/confirm10.bmp"
+    },
+    {
+        "id": 10,
+        "name": "월드클래스300",
+        "img": "/img/Industry/IndustryConfirm/confirm11.bmp"
+    },
+    {
+        "id": 11,
+        "name": "IP Star 기업",
+        "img": "/img/Industry/IndustryConfirm/confirm12.gif"
+    },
+    {
+        "id": 12,
+        "name": "경기도 유망중소기업",
+        "img": "/img/Industry/IndustryConfirm/confirm13.bmp"
+    },
+    {
+        "id": 13,
+        "name": "인재육성형 중소기업",
+        "img": "/img/Industry/IndustryConfirm/confirm14.gif"
+    },
+    {
+        "id": 14,
+        "name": "전문연구인력제도",
+        "img": "/img/Industry/IndustryConfirm/confirm15.jpg"
+    },
+    {
+        "id": 15,
+        "name": "산업기능요원제도",
+        "img": "/img/Industry/IndustryConfirm/confirm16.gif"
+    },
+    {
+        "id": 16,
+        "name": "우수그린비즈",
+        "img": "/img/Industry/IndustryConfirm/confirm17.jpg"
+    },
+    {
+        "id": 17,
+        "name": "연구소기업",
+        "img": "/img/Industry/IndustryConfirm/confirm18.png"
+    }
+
+]

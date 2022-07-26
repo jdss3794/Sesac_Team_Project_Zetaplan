@@ -1,0 +1,78 @@
+.paginationBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 1rem auto;
+    padding-top: 50px;
+  }
+  
+  .PrevButton {
+    border-radius: 0.25rem;
+    color: #3b4b59;
+    width: 40px;
+    height: 24px;
+    font-size: 1.5rem;
+  }
+  
+  .PrevButton:hover {
+    cursor: pointer;
+    background: #e0e0e0;
+  }
+  
+  .PrevButton:active {
+    border: solid 1px #3b4b59;
+  }
+  
+  .NextButton {
+    border-radius: 0.25rem;
+    color: #3b4b59;
+    width: 40px;
+    height: 24px;
+    font-size: 1.5rem;
+  }
+  
+  .NextButton:hover {
+    cursor: pointer;
+    background: #e0e0e0;
+  }
+  
+  .NextButton:active {
+    border: solid 1px #3b4b59;
+  }
+  
+  .PageNumButton {
+    border-radius: 0.25rem;
+    width: 40px;
+    height: 24px;
+    color: #3b4b59;
+    width: 40px;
+    height: 24px;
+    background: #fff;
+    font-size: 1rem;
+  }
+  
+  .PageNumButton:hover {
+    cursor: pointer;
+    background: #e0e0e0;
+  }
+  
+  .PageNumButton:active {
+    border: solid 1px #3b4b59;
+  }
+  
+  @media screen and (max-width: 765px) {
+    .paginationBox {
+      width: 95%;
+    }
+    .PrevButton {
+      width: 95%;
+    }
+    .NextButton {
+      width: 95%;
+    }
+    .PageNumButton {
+      width: 95%;
+    }
+  }
+  

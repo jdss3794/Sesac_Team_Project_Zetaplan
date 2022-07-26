@@ -1,0 +1,70 @@
+#CompanyRoad .company-road-title {
+    width: 100px;
+    height: 180px;
+    line-height: 180px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px auto 0;
+    color: #2c3540;
+}
+
+#CompanyRoad .company-road-wrap {
+    margin-bottom: 50px;
+}
+
+.company-road-part {
+    display: inline-block;
+    font-size: 18px;
+    margin: 40px 0;
+    position: relative;
+    font-weight: bold;
+}
+
+.company-road-part::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1.8px;
+    background-color: rgba(44, 53, 64, 0.5);
+    border-radius: 16px;
+    position: absolute;
+    right: -70px;
+    top: 50%;
+}
+
+#CompanyRoad .company-road-wrap>p {
+    font-size: 14px;
+    margin: 10px;
+    color: #2c3540;
+}
+
+.company-road-map-wrap {
+    width: 800px;
+    height: 400px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+
+.company-road-map-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 765px) {
+    #CompanyRoad .company-road-wrap>p {
+        font-size: 14px;
+        margin: 10px;
+        color: #2c3540;
+    }
+    .company-road-map-wrap {
+        width: 50%;
+        height: 50%;
+        margin: 20px 10px;
+        overflow: hidden;
+    }
+    .company-road-map-wrap img {
+        width: 100%;
+        height: 100%;
+    }
+}

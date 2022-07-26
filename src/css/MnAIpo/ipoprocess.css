@@ -1,0 +1,145 @@
+.mnaipo-ipoprocess-section {
+  margin: 70px 0 0 0;
+}
+
+#ipoprocess .mnaipo-ipoprocess-section div {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+#ipoprocess .mnaipo-ipoprocess-part {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+#ipoprocess .mnaipo-ipoprocess-part::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.8px;
+  background-color: rgba(44, 53, 64, 0.5);
+  border-radius: 16px;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+}
+
+/* ============================== */
+
+#ipoprocess .mnaipo-ipoprocess-section .mnaipo-ipoprocess-section-img {
+  background: url(/public/img/MnaIpo/IpoProcess/ipo\ process.png) no-repeat;
+  width: 810px;
+  height: 300px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+/* ============================================== */
+
+.IpoProcess2 .mnaipo-ipoprocess-ipoconsult-parts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.IpoProcess2 .mnaipo-ipoprocess-ipoconsult-part {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 65px;
+  line-height: 65px;
+  background-color: rgb(44, 53, 64, 0.8);
+  color: white;
+  border-radius: 10px;
+}
+
+.IpoProcess2 .mnaipo-ipoprocess-advice-part table {
+  width: 95%;
+  border: 1px solid #2c3540;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.IpoProcess2 .mnaipo-ipoprocess-advice-part table th {
+  background-color: rgba(44, 53, 64, 0.7);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.IpoProcess2 .mnaipo-ipoprocess-advice-part table th,
+.IpoProcess2 .mnaipo-ipoprocess-advice-part table td {
+  padding: 10px;
+  border: 1px solid #2c3540;
+}
+
+.IpoProcess2 .mnaipo-ipoprocess-advice-part table tbody td ul {
+  padding: 10px 10px 10px;
+}
+
+#mnaipo-ipoprocess-section-dl {
+  display: none;
+}
+#mnaipo-ipoprocess-section-dl .mnaipo-ipoprocess-part {
+  margin-bottom: 30px;
+}
+#mnaipo-ipoprocess-section-dl dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#mnaipo-ipoprocess-section-dl dd {
+  margin-left: 10px;
+}
+#mnaipo-ipoprocess-section-dl dl {
+  margin-bottom: 30px;
+}
+/* =============================================== */
+
+.ipoprocess-step {
+  width: 300px;
+}
+
+@media (max-width: 765px) {
+  #ipoprocess .mnaipo-ipoprocess-section .mnaipo-ipoprocess-section-img {
+    width: 280px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+  .flex {
+    flex-wrap: wrap;
+  }
+  .IpoProcess2 .mnaipo-ipoprocess-ipoconsult-parts {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #mnaipo-ipoprocess-section-table {
+    display: none;
+  }
+  #mnaipo-ipoprocess-section-dl {
+    display: block;
+  }
+  .IpoProcess2 .mnaipo-ipoprocess-ipoconsult-part {
+    width: 130px;
+    height: 50px;
+    font-size: 14px;
+  }
+  #ipoprocess .mnaipo-ipoprocess-section div {
+    margin-left: 5px;
+  }
+}

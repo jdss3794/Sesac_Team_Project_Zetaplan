@@ -1,0 +1,33 @@
+#IndustryTransfer .industry-transfer-refer-wrap {
+    width: 100%;
+    text-align: end;
+}
+
+#IndustryTransfer .industry-transfer-refer {
+    display: inline-block;
+    font-size: 14px;
+    color: #BF0628;
+    margin-bottom: 10px;
+}
+
+#IndustryTransfer .industry-transfer-sales-country {
+    width: 100%;
+}
+
+#IndustryTransfer .industry-transfer-sales-country select {
+    margin: 0 10px;
+}
+
+#IndustryTransfer th {
+    position: relative;
+}
+
+#IndustryTransfer .contents-title {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    left: 0;
+    transform: translateY(-50%);
+}

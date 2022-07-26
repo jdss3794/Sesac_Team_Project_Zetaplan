@@ -1,0 +1,22 @@
+/* ChatBox : Contact Us */
+
+#SubChatBox {
+    width: 60px;
+    height: 60px;
+    background-color: #F27B35;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 77px;
+    border: 2px solid #efefef;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+}
+
+@media (max-width: 765px) {
+    #SubChatBox {
+        right: 75px;
+    }
+}

@@ -1,0 +1,196 @@
+.company-title-container {
+  padding-top: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #2C3540;
+  margin-bottom: 24px;
+}
+.company-title-line {
+  width: 3px;
+  height: 50px;
+  background-color: #3B4B59;
+  margin-bottom: 60px;
+}
+.company-info, .company-info2 {
+  font-size: 0.875rem;
+  color: #2C3540;
+  text-align: center;
+  line-height: 160%;
+  margin-bottom: 60px;
+}
+.company-info2 {
+  margin-bottom: 0;
+  padding: 100px 0;
+}
+.info-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 370px;
+  background-color: #efefef;
+  padding: 0 100px;
+  color: #2C3540;
+}
+.info-icon-container .info-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.875rem;
+}
+.info-icon-container .info-icon-item .info-icon-box {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #3B4B59;
+  margin-bottom: 16px;
+  transition: background-color .5s;
+}
+.info-icon-container .info-icon-item .info-icon-box:hover {
+  background-color: #F27B35;
+}
+.info-icon-container .info-icon-item .info-icon-box .info-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.125rem;
+  color: #efefef;
+}
+
+.company-info-bg {
+  width: 100%;
+  height: 500px;
+  color: #fff;
+}
+.company-info-bg.info-bg1 {
+  background: url(../../../public/img/Company/CompanyInfo/infoBg5.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+}
+.company-info-bg.info-bg2 {
+  background: url(../../../public/img/Company/CompanyInfo/infoBg2.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+}
+.company-info-bg.info-bg3 {
+  background: url(../../../public/img/Company/CompanyInfo/infoBg3.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+}
+.company-info-bg.info-bg4 {
+  background: url(../../../public/img/Company/CompanyInfo/infoBg4.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+}
+.company-info-desc-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  background-color: #efefef;
+}
+.company-info-desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: #2C3540;
+  background-color: #efefef;
+}
+.company-info-desc .company-info-desc-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-right: 32px;
+}
+.company-info-desc .company-info-desc-line {
+  position: relative;
+  bottom: -10px;
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.company-info-desc .company-info-desc-line span {
+  display: block;
+  background-color: #2C3540;
+}
+.company-info-desc .company-info-desc-line span:first-child {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.company-info-desc .company-info-desc-line span:last-child {
+  width: 100px;
+  height: 1px;
+}
+.company-info-desc .company-info-desc-content {
+  width: 650px;
+  font-size: 0.875rem;
+  line-height: 160%;
+  letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 765px) {
+  .company-title-container {
+    padding-top: 76px;
+  }
+  .company-title {
+    font-size: 1.375rem;
+    margin-bottom: 20px;
+  }
+  .company-title-line {
+    width: 1.2px;
+    height: 40px;
+    margin-bottom: 34px;
+  }
+  .info-icon-container {
+    flex-wrap: wrap;
+    padding: 18px 0;
+  }
+  .info-icon-container .info-icon-item {
+    width: 150px;
+  }
+  .info-icon-container .info-icon-item .info-icon-box {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  .info-icon-container .info-icon-item .info-icon-box .info-icon {
+    font-size: 2.25rem;
+  }
+  .company-info-desc-box {
+    width: auto;
+    padding: 50px 40px;
+    height: auto;
+  }
+  .company-info-desc {
+    flex-direction: column;
+    width: 100%;
+  }
+  .company-info-desc .company-info-desc-title {
+    font-size: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .company-info-desc .company-info-desc-line {
+    margin-bottom: 80px;
+    transform: rotate(180deg);
+  }
+  .company-info-desc .company-info-desc-line span {
+    background-color: #9b9b9b;
+  }
+  .company-info-desc .company-info-desc-line span:last-child {
+    width: 80px;
+  }
+  .company-info-desc .company-info-desc-content {
+    width: 90%;
+  }
+  .company-info-bg {
+    height: 300px;
+  }
+  .company-info-bg.info-bg1, .company-info-bg.info-bg2, .company-info-bg.info-bg3, .company-info-bg.info-bg4 {
+    background-attachment: scroll;
+  }
+}

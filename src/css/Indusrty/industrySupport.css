@@ -1,0 +1,184 @@
+/* Industry 지원 사업 CSS */
+
+.detail-title {
+    height: 180px;
+    line-height: 180px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    color: #2c3540;
+}
+
+.detail-tab-lists {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-color: rgba(44, 53, 64, 0.4);
+}
+
+.detail-tab-lists .detail-tab-list {
+    display: block;
+    width: 100%;
+    height: 44px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #2c3540;
+    border-bottom: 1px solid rgba(44, 53, 64, 0.4);
+    border-left: 1px solid rgba(44, 53, 64, 0.4);
+    border-top: 1px solid rgba(44, 53, 64, 0.4);
+}
+
+.detail-tab-lists .detail-tab-list.active {
+    background-color: rgba(242, 123, 53, 1);
+    font-weight: bold;
+    color: #fff;
+    border-color: rgba(242, 123, 53, 1);
+}
+
+.detail-tab-lists .detail-tab-list:last-child {
+    border-right: 1px solid rgba(44, 53, 64, 0.4);
+}
+
+.detail-tab-content {
+    width: 1200px;
+    animation: contentTab 0.3s linear;
+}
+
+#IndustrySupport1,
+#IndustrySupport2,
+#IndustrySupport3,
+#IndustrySupport4 {
+    color: #2c3540;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 20px 0 50px;
+}
+
+#IndustrySupport1 .industry-support1-sub,
+#IndustrySupport2 .industry-support2-sub,
+#IndustrySupport3 .industry-support3-sub,
+#IndustrySupport4 .industry-support4-sub {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0 20px;
+}
+
+#IndustrySupport1 .industry-support1-des {
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 1.6;
+}
+
+#IndustrySupport1 .industry-support1-des strong {
+    font-weight: bold;
+}
+
+.industry-support-img {
+    width: 800px;
+}
+
+.industry-support-img img {
+    width: 100%;
+}
+
+#IndustrySupport1 .industry-support1-refer {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#IndustrySupport2 {
+    color: #2c3540;
+}
+
+#IndustrySupport2 .industry-support2-sub {
+    font-size: 18px;
+    margin: 25px 0 15px;
+}
+
+#IndustrySupport2 .industry-support2-sub-detail {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 5px;
+}
+
+#IndustrySupport2 .industry-support2-des {
+    font-size: 14px;
+    margin: 8px;
+    line-height: 1.8;
+}
+
+#IndustrySupport2 .industry-support2-refer {
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#IndustrySupport2 .industry-support2-img {
+    margin-bottom: 20px;
+}
+
+#IndustrySupport3 .industry-support3-sub {
+    font-size: 18px;
+    margin: 25px 0 15px;
+}
+
+#IndustrySupport3 .industry-support3-des {
+    font-size: 14px;
+    margin: 8px;
+    line-height: 1.6;
+}
+
+#IndustrySupport3 .industry-support3-refer {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#IndustrySupport3 .last-des {
+    margin-top: 15px;
+}
+
+#IndustrySupport4 .industry-support4-sub {
+    font-size: 18px;
+    margin: 25px 0 15px;
+}
+
+#IndustrySupport4 .industry-support4-des {
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 1.4;
+}
+
+@media (max-width: 765px) {
+    .detail-title {
+        font-size: 28px;
+    }
+    .detail-tab-content {
+        width: 100%;
+    }
+    #IndustrySupport1,
+    #IndustrySupport2,
+    #IndustrySupport3,
+    #IndustrySupport4 {
+        width: 100%;
+    }
+    .industry-support-img {
+        width: 90%;
+    }
+}
+
+@keyframes contentTab {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

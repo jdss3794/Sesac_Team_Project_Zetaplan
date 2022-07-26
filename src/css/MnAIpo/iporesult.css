@@ -1,0 +1,63 @@
+.mnaipo-iporesult-section {
+  margin: 70px 0 0 0;
+}
+
+#iporesult .mnaipo-iporesult-section div {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+#iporesult .mnaipo-iporesult-part {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+#iporesult .mnaipo-iporesult-part::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.8px;
+  background-color: rgba(44, 53, 64, 0.5);
+  border-radius: 16px;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+}
+
+/* ========================================spac 우회상장 */
+
+#iporesult table {
+  width: 100%;
+  border: 1px solid #2c3540;
+  text-align: left;
+  border-collapse: collapse;
+}
+#iporesult table th,
+#iporesult table td {
+  border: 1px solid #2c3540;
+  border-collapse: collapse;
+}
+#iporesult table th {
+  text-align: center;
+  background-color: rgba(59, 75, 89, 0.8);
+  color: #efefef;
+  font-size: 17px;
+  padding: 10px;
+}
+#iporesult table td {
+  padding: 10px 20px 10px;
+}
+
+#iporesult table dt {
+  font-weight: bold;
+}
+#iporesult table dd {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,89 @@
+.mnaipo-ma-section {
+  margin: 70px 0;
+}
+
+.mnaipo-ma-section:first-child {
+  margin: 0;
+}
+#ma .mnaipo-ma-section div {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* =========================================== */
+
+#ma .mnaipo-ma-section .mnaipo-ma-classify-img {
+  background: url(./../../../public/img/MnaIpo/MnaSummary/mna\ classify.png) no-repeat;
+  width: 800px;
+  height: 400px;
+}
+
+#ma .mnaipo-ma-part-object {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+/* ==================================== */
+
+#ma .mnaipo-ma-part {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+#ma .mnaipo-ma-part::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.8px;
+  background-color: rgba(44, 53, 64, 0.5);
+  border-radius: 16px;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+}
+
+/* ==================================== */
+
+.mnaipo-ma-part-purpose table {
+  width: 80%;
+  margin-top: 30px;
+  text-align: left;
+}
+.mnaipo-ma-part-purpose table th,
+.mnaipo-ma-part-purpose table td {
+  border: 1px solid #2c3540;
+}
+
+.mnaipo-ma-part-purpose table th {
+  text-align: center;
+  background-color: rgba(59, 75, 89, 0.8);
+  color: #efefef;
+  font-size: 16px;
+  padding: 10px;
+}
+.mnaipo-ma-part-purpose table td {
+  padding: 10px 20px 10px;
+}
+
+.mnaipo-ma-part-purpose table dt {
+  font-weight: bold;
+}
+.mnaipo-ma-part-purpose table dd {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 765px) {
+  #ma .mnaipo-ma-section .mnaipo-ma-classify-img {
+    display: none;
+  }
+  .mnaipo-ma-part-purpose table {
+    width: 96%;
+  }
+}

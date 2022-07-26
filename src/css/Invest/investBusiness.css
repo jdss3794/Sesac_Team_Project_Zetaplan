@@ -1,0 +1,113 @@
+#InvestBusiness1 #SubInner section {
+    margin: 30px 0 80px 0;
+    line-height: 1.5;
+    color: #2C3540;
+}
+
+#InvestBusiness1 #SubInner section h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.image-investbusines-container {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.image-investbusines-container img {
+    width: 90%;
+    height: 90%;
+}
+
+/*========*/
+#InvestBusiness2 #SubInner section {
+    margin: 30px 0 80px 0;
+    line-height: 1.5;
+    color: #2C3540;
+}
+
+#InvestBusiness2 #SubInner section h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-investbusines2-container {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.image-investbusines2-container img {
+    width: 50%;
+    height: 80%;
+}
+
+
+#InvestBusiness2 #SubInner section table {
+    width: 800px;
+
+}
+
+#InvestBusiness2 #SubInner section table .table-header {
+    background-color: rgba(59, 75, 89, 0.8);
+    color: #efefef;
+}
+
+#InvestBusiness2 #SubInner section table tr td {
+    border: solid 1px #000;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/*========*/
+#InvestBusiness3 #SubInner section {
+    margin: 30px 0 80px 0;
+    line-height: 1.5;
+    color: #2C3540;
+}
+
+#InvestBusiness3 #SubInner section h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-investbusines3-container {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.image-investbusines3-container img {
+    width: 45%;
+    height: 80%;
+}
+
+@media screen and (max-width: 765px) {
+    #InvestBusiness2 #SubInner section table {
+        width: 100%;
+    }
+
+    #InvestBusiness1 section .image-investbusines-container,
+    #InvestBusiness2 section .image-investbusines2-container,
+    #InvestBusiness3 section .image-investbusines3-container {
+        width: 100%;
+    }
+
+    #InvestBusiness1 section img,
+    #InvestBusiness2 section img,
+    #InvestBusiness3 section img {
+        width: 100%;
+    }
+}

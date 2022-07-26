@@ -1,0 +1,116 @@
+.mnaipo-maresult-section {
+  margin: 70px 0;
+}
+#maresult .mnaipo-maresult-section div {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+#maresult .mnaipo-maresult-part {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+#maresult .mnaipo-maresult-part::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.8px;
+  background-color: rgba(44, 53, 64, 0.5);
+  border-radius: 16px;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+}
+
+.mnaipo-maresult-part-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.mnaipo-maresult-part-main-left,
+.mnaipo-maresult-part-main-center,
+.mnaipo-maresult-part-main-right {
+  width: 330px;
+  margin: auto;
+}
+.mnaipo-maresult-part-main > div > span {
+  font-size: 16px;
+  font-weight: bold;
+}
+.mnaipo-maresult-part-main > div > span::after {
+  content: "";
+  display: block;
+  width: 330px;
+  height: 1px;
+  background-color: #2c3540;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.mnaipo-maresult-part-main-left dd {
+  border: 1px solid #2c3540;
+  padding: 10px 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+.mnaipo-maresult-part-main-center dl {
+  border: 1px solid #2c3540;
+  padding: 15px 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.mnaipo-maresult-part-main-center dl dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.mnaipo-maresult-part-main-right dl {
+  border: 1px solid #2c3540;
+  padding: 15px 15px 15px;
+  border-radius: 10px;
+}
+/* ================================= */
+@media (max-width: 765px) {
+  .mnaipo-maresult-part-main-left,
+  .mnaipo-maresult-part-main-center,
+  .mnaipo-maresult-part-main-right {
+    width: 300px;
+  }
+  .mnaipo-maresult-part-main > div > span::after {
+    width: 300px;
+  }
+  .mnaipo-maresult-part-header {
+    width: 200px;
+    height: 50px;
+    background-color: #2c3540;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .mnaipo-maresult-part-main > div span {
+    font-weight: 400;
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+  }
+  .mnaipo-maresult-part-main > div > span::after {
+    display: none;
+  }
+  .mnaipo-maresult-part-main-left dl,
+  .mnaipo-maresult-part-main-center dl,
+  .mnaipo-maresult-part-main-right dl {
+    margin-top: 30px;
+  }
+  .mnaipo-maresult-part-main-left dd,
+  .mnaipo-maresult-part-main-center dl,
+  .mnaipo-maresult-part-main-right dl {
+    border-radius: 0;
+  }
+}

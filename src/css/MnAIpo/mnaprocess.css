@@ -1,0 +1,146 @@
+/* =============================================== */
+
+.mnaipo-maprocess-section {
+  margin: 70px 0 0 0;
+}
+
+#mnaprocess .mnaipo-maprocess-section div {
+  margin-left: 5px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+#mnaprocess .mnaipo-maprocess-part {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+#mnaprocess .mnaipo-maprocess-part::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.8px;
+  background-color: rgba(44, 53, 64, 0.5);
+  border-radius: 16px;
+  position: absolute;
+  right: -70px;
+  top: 50%;
+}
+
+/* ======================================mnaprocess1  general*/
+
+.mnaprocess1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mnaprocess1 .mnaipo-maprocess-section {
+  width: 550px;
+  margin-right: 50px;
+}
+
+.mnaprocess1 .mnaipo-maprocess-section .mnaipo-maprocess-part-general > div {
+  display: flex;
+  border: 1px solid #2c3540;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.mnaipo-maprocess-part-general-num {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.mnaipo-maprocess-part-general-content h1 {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+/* ======================================mnaprocess1 broker */
+
+.mnaipo-maprocess-part-broker > div {
+  display: flex;
+  border: 1px solid #2c3540;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+.mnaipo-maprocess-part-broker-num {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.mnaipo-maprocess-part-broker-content h1 {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.mnaipo-maprocess-part-broker-content h1 > span {
+  font-weight: 400;
+  font-size: 14px;
+}
+/* ======================================mnaprocess2 table*/
+
+.mnaprocess2 .mnaipo-maprocess-part-select-table {
+  width: 100%;
+  border: 1px solid #2c3540;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+.mnaprocess2 .mnaipo-maprocess-part-select-table th {
+  background-color: rgba(44, 53, 64, 0.7);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.mnaprocess2 .mnaipo-maprocess-part-select-table th,
+.mnaprocess2 .mnaipo-maprocess-part-select-table td {
+  padding: 10px;
+  border: 1px solid #2c3540;
+}
+
+.mnaipo-maprocess-part-select-table tbody td ul {
+  padding: 10px 20px 10px;
+}
+
+/* ======================================mnaprocess2 */
+
+.mnaipo-maprocess-section div dl {
+  margin-top: 20px;
+}
+.mnaipo-maprocess-section div dl dt {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.mnaipo-maprocess-section div dl dd {
+  margin-left: 10px;
+}
+.mnaipo-maprocess-section div dl dd:last-child {
+  margin-bottom: 10px;
+}
+
+#mnaipo-maprocess-part-select-table-none {
+  display: none;
+}
+
+@media (max-width: 765px) {
+  .mnaprocess1 {
+    margin-left: 20px;
+  }
+  .mnaprocess1 .mnaipo-maprocess-section .mnaipo-maprocess-part-general > div,
+  .mnaipo-maprocess-part-broker > div {
+    width: 300px;
+    padding-right: 20px;
+  }
+  .mnaprocess2 .mnaipo-maprocess-part-select-table {
+    display: none;
+  }
+  #mnaipo-maprocess-part-select-table-none {
+    display: block;
+  }
+}

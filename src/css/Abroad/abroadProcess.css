@@ -1,0 +1,11 @@
+/* Abroad 컨설팅 과정 CSS */
+.abroad-process-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 765px) {
+  .abroad-tab-contents {
+    margin-top: 42px;
+  }
+}

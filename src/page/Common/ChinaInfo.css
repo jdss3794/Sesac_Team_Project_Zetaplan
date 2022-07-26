@@ -1,0 +1,184 @@
+.ChineseInfo-section-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.ChineseInfo-section-bar {
+  width: 1200px;
+  height: 1.5px;
+  background-color: #2c3540;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#ChineseInfo-section {
+  margin-bottom: 120px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.bold {
+  font-weight: bold;
+}
+/* =======================section1 */
+
+.ChineseInfo-section1 {
+  padding-top: 100px;
+}
+
+.ChineseInfo-section1 .ChineseInfo-section1-img {
+  background: url(/public/img/common/logo.png);
+  width: 480px;
+  height: 140px;
+  margin: auto;
+  margin-top: 50px;
+}
+.ChineseInfo-section1-img-line {
+  width: 3px;
+  height: 50px;
+  background-color: #2c3540;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.ChineseInfo-section1-content {
+  text-align: center;
+  line-height: 1.7;
+}
+
+.ChineseInfo-section1-content li {
+  margin-bottom: 30px;
+}
+
+/* =======================section2 */
+
+.ChineseInfo-section2-content div {
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+.ChineseInfo-section2-content-img-have {
+  display: flex;
+  padding-top: 50px;
+}
+.ChineseInfo-section2-content-img {
+  background: url(/public/img/Info/Info.png) no-repeat center / cover;
+  width: 372px;
+  height: 152px;
+  margin-left: 20px;
+  opacity: 0.7;
+}
+
+.ChineseInfo-section2-content-img-right {
+  width: 700px;
+  line-height: 1.7;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.ChineseInfo-section2-content-img-right li:first-of-type {
+  margin-bottom: 10px;
+}
+.ChineseInfo-section2-content-img-worldwide {
+  background: url(/public/img/Info/worldwide.png);
+  width: 1200px;
+  height: 550px;
+}
+
+/* =======================section3 */
+
+.ChineseInfo-section3-public-img {
+  background: url(/public/img/Info/public\ clients.png) center / cover;
+  width: 1200px;
+  height: 300px;
+  margin: 50px 0;
+}
+.ChineseInfo-section3-company-img {
+  background: url(/public/img/Info/company\ clients.png) center / cover;
+  width: 1200px;
+  height: 330px;
+  margin: 50px 0;
+}
+.ChineseInfo-section3-univ-img {
+  background: url(/public/img/Info/university\ clients.png) center / cover;
+  width: 1200px;
+  height: 55px;
+  margin: 50px 0;
+}
+
+/* =======================section4 */
+.businessarea-img1 {
+  background: url(/public/img/Info/business\ area\ 1.png);
+  width: 454px;
+  height: 187px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+.ChineseInfo-section4 .ChineseInfo-section-content li {
+  margin-bottom: 10px;
+}
+.ChineseInfo-section4 .ChineseInfo-section-content > li:last-of-type {
+  margin-top: 40px;
+}
+
+.ChineseInfo-section4 .ChineseInfo-section-content table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  border: 2px solid #2c3540;
+  line-height: 1.4;
+}
+.ChineseInfo-section4 .ChineseInfo-section-content table th,
+.ChineseInfo-section4 .ChineseInfo-section-content table td {
+  border: 2px solid #2c3540;
+}
+
+.ChineseInfo-section4 .ChineseInfo-section-content table th {
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(44, 53, 64, 0.7);
+  color: white;
+}
+.ChineseInfo-section4 .ChineseInfo-section-content table td {
+  padding: 10px 20px;
+}
+
+.businessarea-img2 {
+  background: url(/public//img/Info/business\ area\ 2.png) center / cover;
+  width: 442px;
+  height: 170px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+.businessarea-img3 {
+  background: url(/public//img/Info/business\ area\ 3.png) center / cover;
+  width: 520px;
+  height: 188px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+/* .businessarea-img4 {
+    background: url(/public//img/Info/business\ area\ 4.png) center / cover;
+    width: 442px;
+    height: 170px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+  }
+   */
+/* =======================section5 */
+.techtransfercase-img {
+  background: url(/public/img/Info/TECH\ TRANSFER\ CASE.png) center/ cover;
+  width: 1200px;
+  height: 650px;
+  margin-top: 30px;
+}
+/* =======================section6 */
+.ChineseInfo-section6 > dl {
+  margin-top: 30px;
+}
+.ChineseInfo-section6 > dl > dt {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}

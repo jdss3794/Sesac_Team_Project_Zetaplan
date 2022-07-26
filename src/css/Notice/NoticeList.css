@@ -1,0 +1,479 @@
+/* 게시판 css */
+
+.notice-title {
+  width: 400px;
+  height: 180px;
+  line-height: 180px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: #2c3540;
+}
+
+.notice-list {
+  font-size: 0.875rem;
+  width: 1000px;
+  text-align: center;
+}
+
+.notice-list > li {
+  border-bottom: 1px solid #ccc;
+}
+.issue-list {
+  font-size: 0.875rem;
+  width: 1000px;
+  text-align: center;
+}
+.issue-list > li {
+  border-bottom: 1px solid #ccc;
+}
+.notice-list > li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.list-box {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.board-lists {
+  width: 1200px;
+  height: 35px;
+  line-height: 35px;
+  color: #2c3540;
+}
+
+.board-lists a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board-lists.title {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid #2c3540;
+  font-size: 0.875rem;
+}
+
+.board-lists.title .list-title {
+  text-align: center;
+}
+
+.board-lists.title span {
+  background-color: rgba(102, 102, 102, 0.1);
+  border-bottom: 1px solid #ccc;
+}
+
+.id-name {
+  width: 150px;
+}
+
+.list-title {
+  width: 700px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.list-title:hover {
+  cursor: pointer;
+}
+
+.list-author {
+  width: 100px;
+}
+
+.list-date {
+  width: 150px;
+}
+
+.list-view {
+  width: 100px;
+}
+
+.inquireBtn {
+  right: 0;
+  bottom: 5%;
+  padding: 7px 16px;
+  position: absolute;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3b4b59;
+  font-size: 0.87rem;
+  margin-right: 0;
+}
+
+.loginBtn {
+  display: block;
+  right: 7%;
+  bottom: 5%;
+  padding: 7px 16px;
+  position: absolute;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3b4b59;
+  font-size: 0.87rem;
+}
+
+.writeBtn {
+  right: 0;
+  bottom: 5%;
+  padding: 7px 16px;
+  position: absolute;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3b4b59;
+  font-size: 0.87rem;
+}
+
+.board-search-container {
+  width: 1200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.btn-success {
+  margin-left: -26px;
+}
+
+.board-search-selector {
+  width: 70px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.input-box {
+  width: 250px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.detail-container {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-top: 1px solid black;
+}
+.detail-container table {
+  width: 100%;
+  /*   border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc; */
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.detail-container table th,
+.detail-container table td {
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.detail-container table th {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(204, 204, 204, 0.2);
+}
+
+.detail-container-header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.detail-container-header-view {
+  padding-right: 10px;
+}
+.detail-container-header-date {
+  margin-left: 20px;
+}
+.detail-container-header-contents {
+  padding: 40px 80px;
+  height: auto;
+  line-height: 1.8;
+}
+.detail-sample-img {
+  width: 100%;
+}
+
+.inquiry-Btnbox {
+  display: flex;
+  justify-content: flex-end;
+}
+.rewriteBtn {
+  padding: 7px 16px;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3b4b59;
+  font-size: 0.87rem;
+  margin-right: 10px;
+}
+.detail-first-list {
+  padding: 7px 16px;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3b4b59;
+  font-size: 0.87rem;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* 뉴스탭 css */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.news-notice-list {
+  border-top: 3px solid black;
+}
+
+.news-board-lists-link {
+  display: flex;
+  justify-content: flex-start;
+  /*   border: solid 1px black; */
+  margin: 30px 0;
+  border-bottom: 1px solid rgb(178, 178, 178);
+  /*   border-top: 1px solid rgb(178, 178, 178); */
+}
+
+.news-list-thumnail {
+  width: 285px;
+  height: 200px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  /*     border: solid 1px black; */
+}
+
+.news-list-thumnail img {
+  width: 100%;
+  height: auto;
+}
+.news-box-contents {
+  text-align: left;
+  width: 60%;
+  margin-left: 100px;
+}
+
+.news-list-title {
+  display: block;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+
+.news-list-content {
+  margin-bottom: 40px;
+  font-size: 16px;
+  width: 800px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; /* 3줄 ellipsis 하기 */
+  color: #2c3540;
+}
+
+.news-list-date {
+  display: block;
+  /*   margin-bottom: 10px; */
+}
+.news-writeBtn {
+  right: 0;
+  bottom: 2%;
+  padding: 7px 16px;
+  position: absolute;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3b4b59;
+  font-size: 0.87rem;
+}
+
+.news-detail-thumnail {
+  width: 1000px;
+  margin: 0 auto;
+}
+.news-detail-thumnail img {
+  width: 100%;
+  height: auto;
+}
+.detail-first-list-link {
+  text-align: right;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* 미디어 쿼리 */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+@media screen and (max-width: 765px) {
+  .board-search-container {
+    width: 95%;
+  }
+  .list-box {
+    width: 95%;
+  }
+  .notice-title {
+    width: 95%;
+    font-size: 24px;
+  }
+  .notice-list {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .link-box {
+    width: 100%;
+  }
+
+  .board-lists {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .board-lists.title {
+    display: none;
+  }
+  .detail-container table th {
+    font-size: 0.8rem;
+    line-height: 1.8;
+    margin: 0 auto;
+    padding-right: 10px;
+    vertical-align: middle;
+  }
+  .detail-container table td {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .id-name {
+    display: none;
+  }
+  .list-title {
+    width: 100%;
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 28px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .list-author {
+    width: 50px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    height: 28px;
+    line-height: 30px;
+  }
+  .list-date {
+    width: 30%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    height: 28px;
+    line-height: 30px;
+  }
+
+  .list-view {
+    display: none;
+  }
+  .writeBtn {
+    bottom: 4%;
+    right: 3%;
+    font-size: 0.6rem;
+  }
+  .loginBtn {
+    bottom: 4%;
+    right: 22%;
+    font-size: 0.6rem;
+  }
+  .detail-container-header-contents {
+    padding: 20px 40px;
+    height: auto;
+    line-height: 1.6;
+  }
+  .detail-container-header-author {
+    font-size: 0.7rem;
+  }
+  .detail-container-header-date {
+    font-size: 0.7rem;
+  }
+  .detail-container-header-view {
+    font-size: 0.7rem;
+  }
+  .inquireBtn {
+    bottom: 4%;
+    right: 3%;
+    font-size: 0.6rem;
+  }
+  .rewriteBtn {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  #NoticeNewsDetail .detail-first-list-link {
+    text-align: right;
+  }
+  #NoticeDetail .detail-first-list-link {
+    text-align: right;
+  }
+  #NoticeColumnDetail .detail-first-list-link {
+    text-align: right;
+  }
+  #NoticeInfoDetail .detail-first-list-link {
+    text-align: right;
+  }
+  #NoticeInquiryDetail .detail-first-list-link {
+    margin-left: 5px;
+  }
+  .detail-first-list {
+    font-size: 0.7rem;
+  }
+  /* 뉴스페이지 미디어쿼리 */
+
+  .news-board-lists-link {
+    display: block;
+    margin: 0 auto;
+  }
+  .news-list-thumnail {
+    margin: 0 auto;
+  }
+  .news-box-contents {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .news-list-title {
+    font-size: 1.063rem;
+    margin-bottom: 20px;
+  }
+  .news-list-content {
+    width: 100%;
+    font-size: 0.938rem;
+    margin-bottom: 20px;
+  }
+  .news-list-date {
+    font-size: 0.938rem;
+    margin-bottom: 20px;
+    color: #2c3540;
+  }
+  .news-writeBtn {
+    padding: 7px 16px;
+    bottom: 1.5%;
+    right: 3%;
+    font-size: 0.6rem;
+  }
+  .news-detail-thumnail {
+    width: 100%;
+    height: auto;
+  }
+  .news-detail-thumnail img {
+    width: 100%;
+    height: auto;
+  }
+}

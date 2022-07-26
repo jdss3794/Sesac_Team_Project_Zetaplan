@@ -1,0 +1,147 @@
+.notice-request-refer {
+  display: block;
+  color: #BF0628;
+  font-size: 0.875rem;
+  text-align: right;
+  margin-bottom: 12px;
+}
+#requestForm {
+  width: 1200px;
+  margin-bottom: 44px;
+}
+#requestForm .request-form-table {
+  width: 100%;
+  font-size: 0.875rem;
+  border-top: 1px solid #2C3540;
+  border-bottom: 1px solid #2C3540;
+  margin-bottom: 30px;
+}
+#requestForm .request-form-table #FormTitle, 
+#requestForm .request-form-table #companyAddr, 
+#requestForm .request-form-table #inquiryTitle, 
+#requestForm .request-form-table #contents, 
+#requestForm .request-form-table #inquiryContents  {
+  width: 85%;
+}
+#requestForm .request-form-table input[type="text"],
+#requestForm .request-form-table input[type="password"] {
+  width: 390px;
+  border-radius: 0;
+  border: 1px solid #2C3540;
+  padding: 8px 10px;
+}
+#requestForm .request-form-table select {
+  padding: 8px 12px;
+}
+#requestForm .request-form-table .consulting-category {
+  margin-bottom: 20px;
+}
+#requestForm .request-form-table textarea {
+  height: 300px;
+  resize: none;
+  border: 1px solid #2C3540;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 8px 10px;
+}
+#requestForm .request-form-table .request-category-chkbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+#requestForm .request-form-table .request-category-chkbox label {
+  margin-right: 8px;
+}
+#requestForm .request-form-table .request-category-chkbox span {
+  display: flex;
+  align-items: center;
+}
+#requestForm .request-form-table tr {
+  border-bottom: 1px solid #ccc;
+}
+#requestForm .request-form-table td {
+  padding: 17px 0;
+  padding-left: 20px;
+}
+#requestForm .request-form-table th {
+  position: relative;
+  background-color: rgba(59, 75, 89, .8);
+  color: #efefef;
+}
+#requestForm .request-form-table .contents-title {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.submit-btn-group {
+  text-align: right;
+}
+.submit-btn-group>button {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+}
+.submit-btn-group>button:hover {
+  font-weight: bold;
+}
+.submit-btn-group .request-submit-btn {
+  color: #efefef;
+  background-color: #3B4B59;
+  margin-right: 30px;
+}
+.submit-btn-group .request-cancel-btn {
+  background-color: #efefef;
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 500px;
+}
+
+@media screen and (max-width: 765px) {
+  #requestForm {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #requestForm .request-form-table {
+    border: none;
+  }
+  #requestForm .request-form-table tr {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 80vw;
+  }
+  #requestForm .request-form-table th {
+    background-color: transparent;
+    color: #2C3540;
+    text-align: left;
+  }
+  #requestForm .request-form-table td {
+    padding: 15px 0 0 0;
+    margin-bottom: 34px;
+  }
+  #requestForm .request-form-table input[type="text"], #requestForm .request-form-table input[type="password"] {
+    width: 100%;
+  }
+  #requestForm .request-form-table #FormTitle, 
+  #requestForm .request-form-table #companyAddr, 
+  #requestForm .request-form-table #inquiryTitle, 
+  #requestForm .request-form-table #contents, 
+  #requestForm .request-form-table #inquiryContents {
+    width: 100%;
+  }
+  .submit-btn-group>button {
+    width: 120px;
+    height: 40px;
+  }
+  .submit-btn-group .request-submit-btn {
+    margin-right: 20px;
+  }
+  .toastui-editor-defaultUI-toolbar {
+    padding: 0;
+  }
+  .editor-box {
+    width: 86vw;
+  }
+}

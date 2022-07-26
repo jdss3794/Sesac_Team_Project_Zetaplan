@@ -1,0 +1,206 @@
+#SubHeader {
+    width: 100%;
+    height: 200px;
+    margin-top: 78px;
+    z-index: 999;
+}
+
+#SubHeader .company-header-banner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+#SubHeader .company-header-banner.com-header-banner {
+    background: url(./../../../public/img/common/Subbanner/sub_banner1.png) no-repeat center / cover;
+}
+
+#SubHeader .company-header-banner.ma-header-banner {
+    background: url(./../../../public/img/common/Subbanner/sub_banner2.png) no-repeat center / cover;
+}
+
+#SubHeader .company-header-banner.invest-header-banner {
+    background: url(./../../../public/img/common/Subbanner/sub_banner3.png) no-repeat center / cover;
+}
+
+#SubHeader .company-header-banner.abroad-header-banner {
+    background: url(./../../../public/img/common/Subbanner/sub_banner4.png) no-repeat center / cover;
+}
+
+#SubHeader .company-header-banner.industry-header-banner {
+    background: url(./../../../public/img/common/Subbanner/sub_banner5.png) no-repeat center / cover;
+}
+
+#SubHeader .company-header-banner.notice-header-banner {
+    background: url(./../../../public/img/common/Subbanner/sub_banner1.png) no-repeat center / cover;
+}
+
+#SubHeader .company-header-title-wrap {
+    width: 420px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#SubHeader .company-header-title-wrap .company-header-title {
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 16px;
+    color: #fff;
+    background: linear-gradient(to right, #fff 0, #2C3540 10%, #fff 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2.5s infinite linear;
+    animation-fill-mode: forwards;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+#SubHeader .company-header-title-wrap .company-header-des {
+    font-size: 14px;
+    color: #fff;
+}
+
+#SubHeader .company-header-banner .company-header-nav {
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    background-color: #2C3540;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    line-height: 50px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    color: #efefef;
+    z-index: 999;
+}
+
+#SubHeader .company-header-nav svg {
+    margin: 8px 50px 0;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1-title,
+#SubHeader .company-header-nav .sub-nav-depth2-sub {
+    display: inline-block;
+    width: 180px;
+    font-size: 16px;
+    position: relative;
+    border-left: 1px solid rgba(239, 239, 239, 0.2);
+}
+
+#SubHeader .company-header-nav .sub-nav-depth2-sub {
+    border-right: 1px solid rgba(239, 239, 239, 0.2);
+    ;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1-title svg,
+#SubHeader .company-header-nav .sub-nav-depth2-sub svg {
+    display: inline-block;
+    width: 180px;
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1,
+#SubHeader .company-header-nav .sub-nav-depth2 {
+    font-size: 0.8rem;
+    position: absolute;
+    background-color: rgba(44, 53, 64, 0.5);
+    display: none;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth2-sub:hover .sub-nav-depth2 {
+    display: block;
+    animation: navPop 0.4s ease-in-out;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1-title:hover .sub-nav-depth1 {
+    display: block;
+    animation: navPop 0.4s ease-in-out;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1 li,
+#SubHeader .company-header-nav .sub-nav-depth2 li {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1 li:hover,
+#SubHeader .company-header-nav .sub-nav-depth2 li:hover {
+    background-color: #2C3540;
+}
+
+#SubHeader .company-header-nav .sub-nav-depth1 a,
+#SubHeader .company-header-nav .sub-nav-depth2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes navPop {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bannerZoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0
+    }
+    60% {
+        background-position: 120px
+    }
+    100% {
+        background-position: 240px
+    }
+}
+
+@media (max-width: 765px) {
+    .company-header-nav>a {
+        display: none;
+    }
+    #SubHeader .company-header-title-wrap {
+        width: 50%;
+        height: 50px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    #SubHeader .company-header-title-wrap .company-header-des {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    #SubHeader .company-header-banner .company-header-nav {
+        width: 90%;
+    }
+    #SubHeader .company-header-nav svg {
+        display: none;
+    }
+    #SubHeader .company-header-nav .sub-nav-depth2-sub svg {
+        display: none;
+    }
+    .sub-nav-depth2 {
+        width: 100%;
+    }
+}
