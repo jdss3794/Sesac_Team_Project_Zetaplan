@@ -60,7 +60,7 @@ const MainFullpageNews = () => {
     return <InvestItem key={item.id} item={item} />;
   });
 
-  const PolicyinfoList = PolicyInfoListData.map((item) => {
+  const PolicyInfoList = PolicyInfoListData.map((item) => {
     return <PolicyInfoItem key={item.id} item={item} />;
   });
   const ConsultingList = ConsultingListData.map((item) => {
@@ -74,6 +74,7 @@ const MainFullpageNews = () => {
           <h2 className='section-title'>
             새소식<span>Notice</span>
           </h2>
+
           <div className='board-box' data-aos='fade-up'>
             <div className='board'>
               <h3 className='news-title'>
@@ -85,22 +86,23 @@ const MainFullpageNews = () => {
                 <div className='more-text'>더보기</div>
               </Link>
             </div>
+
             <div className='board'>
               <h3 className='news-title'>
                 <p>뉴스</p>
               </h3>
               <div className='board-list'>{newsList}</div>
-
               <Link to={'/notice/news'} className='more-btn'>
                 <BsPlusLg className='more-icon' />
                 <div className='more-text'>더보기</div>
               </Link>
             </div>
+
             <div className='board'>
               <h3 className='news-title'>
                 <p>기업지원정보</p>
               </h3>
-              <div className='board-list'>{PolicyinfoList}</div>
+              <div className='board-list'>{PolicyInfoList}</div>
               <Link to={'/notice/support'} className='more-btn'>
                 <BsPlusLg className='more-icon' />
                 <div className='more-text'>더보기</div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './BoardItem.css';
 import { Link } from 'react-router-dom';
 
-const GovernmentItem = ({ item }) => {
+const PolicyInfoItem = ({ item }) => {
   return (
     <div className='product-item'>
       <Link to={'/notice/support/detail/' + item.id}>
@@ -13,4 +13,4 @@ const GovernmentItem = ({ item }) => {
   );
 };
 
-export default GovernmentItem;
+export default PolicyInfoItem;
