@@ -34,7 +34,7 @@ const MainFullpageNews = () => {
   }, []);
 
   useEffect(() => {
-    fetch('/data/policyinfo.json')
+    fetch('/data/policyInfo.json')
       .then((response) => response.json())
       .then((response) => setList3(response));
   }, []);
@@ -45,9 +45,9 @@ const MainFullpageNews = () => {
       .then((response) => setList4(response));
   }, []);
 
-  const newsListData = list1.filter(
-    (item, index) => index < 4
-  ); /* 인덱스 4개만 뽑기 */
+  /* 인덱스 4개만 뽑기 */
+
+  const newsListData = list1.filter((item, index) => index < 4);
   const InvestListData = list2.filter((item, index) => index < 4);
   const PolicyInfoListData = list3.filter((item, index) => index < 4);
   const ConsultingListData = list4.filter((item, index) => index < 4);
