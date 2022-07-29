@@ -19,10 +19,7 @@ const IndustryDetail = ({data}) => {
     <div id="IndustryDetail">
       <IndustryHeader title="Industry" sub="거래정보" />
       <div id="SubInner">
-        <div className="company-title-container">
-          <h2 className="company-title">거래정보</h2>
-          <div className="company-title-line"></div>
-        </div>
+        <h2 className="detail-title">거래정보</h2>
         <div className="detail-container">
           <table>
             <thead>

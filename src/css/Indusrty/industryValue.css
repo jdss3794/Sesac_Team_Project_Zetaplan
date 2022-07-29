@@ -66,6 +66,12 @@
   width: 1000px;
   height: 300px;
 }
+
+#IndustryValue .industry-value-img>img{
+  width: 100%;
+  height: auto;
+}
+
 #IndustryValue #img0{
   width: 1000px;
   height: 400px;
@@ -80,20 +86,20 @@
 
 #IndustryValue table {
   width: 100%;
-  border: 2px solid #2c3540;
+  border: 1px solid #2c3540;
   text-align: left;
   border-collapse: collapse;
 }
 #IndustryValue table th,
 #IndustryValue table td {
-  border: 2px solid #2c3540;
+  border: 1px solid #2c3540;
 }
 #IndustryValue table th {
   text-align: center;
   background-color: rgba(59, 75, 89, 0.8);
   color: #efefef;
   font-size: 16px;
-  padding: 20px;
+  padding: 10px;
 }
 #IndustryValue table td {
   padding: 10px 10px 10px;
@@ -172,4 +178,8 @@
   margin-top: 10px;
 
   }
+
+/* #valueTab .detail-tab-lists .detail-tab-list{
+  font-size: 14px;
+} */
 }

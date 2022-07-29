@@ -11,7 +11,7 @@ const AbroadCase = ({title, sub}) => {
       <AbroadHeader title={title} sub={sub} />
 
       <div id='SubInner'>
-        <h2 className="detail-title">해외진출 지원</h2>
+        <h2 className="detail-title">해외 진출 지원</h2>
         <div className="support-card-container">
           {
             data.map((item)=>

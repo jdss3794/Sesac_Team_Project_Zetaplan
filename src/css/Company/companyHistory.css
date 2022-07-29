@@ -12,9 +12,10 @@
 #history1 .history-year, 
 #history2 .history-year,
 #history3 .history-year{
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
     margin-top: 30px;
+    position: relative;
 }
 
 #history1 .history-month,
@@ -36,32 +37,88 @@
     line-height: 30px;
 }
 
-#history .history-line {
+.history-line .bar{
     position: absolute;
-    left:-35px;
-    top:15px;
-    width: 1px;
-    height: calc(100% + 20px);
+    left:115px;
+    top:71px;
+    width: 3px;
     background-color: rgb(153, 153, 153);
+    animation: scrollar 5s infinite 2s;
+}
+#history1 .history-line .bar{
+    height: 1470px;
+}
+#history2 .history-line .bar{
+    height: 7500px;
+}
+#history3 .history-line .bar{
+    height: 1250px;
+}
+
+
+@keyframes scrollar {
+    0% {
+        background-color: rgb(153, 153, 153);
+    }
+    70%{
+        background-color: #F27B35;
+    }
+    
+}
+
+.history-line::before {
+    content: "";
+    position: absolute;
+    left: 109px;
+    top: 55px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 3px solid #F27B35;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 765px) {
-    #history1 .history-month,
-#history2 .history-month,
-#history3 .history-month{
-    font-size: 10px;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-top: 20px;
-    line-height: 20px;
-}
-#history1 .history-des, 
-#history2 .history-des,
-#history3 .history-des{
-    font-size: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    line-height: 30px;
-}
+    #history1 .history-year, 
+    #history2 .history-year,
+    #history3 .history-year{
+        font-size: 30px;
+    }
 
+    #history1 .history-month,
+    #history2 .history-month,
+    #history3 .history-month{
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    #history1 .history-des, 
+    #history2 .history-des,
+    #history3 .history-des{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .history-line::before {
+        left: -25px;
+        top: 20px;
+        border: 2px solid #F27B35;
+    }
+    .history-line .bar{
+        left: -19px;
+        top: 32px;
+        width: 2px;
+    }
+    #history1 .history-line .bar{
+        height: 1010px;
+    }
+    #history2 .history-line .bar{
+        height: 5450px;
+    }
+    #history3 .history-line .bar{
+        height: 1040px;
+    }
 }

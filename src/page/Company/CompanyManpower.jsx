@@ -2,7 +2,7 @@ import CompanyHeader from '../../component/Detail/CompanyHeader';
 import DetailFooter from '../../component/Detail/DetailFooter';
 import '../../css/Company/CompanyManpower.css';
 import React, { useState, useEffect } from 'react';
-import ManPowerItem from './ManPowerItem';
+import CompanyManAcco from './CompanyManAcco';
 
 const CompanyManpower = ({ title, sub }) => {
   const [list, setList] = useState([]);
@@ -12,9 +12,6 @@ const CompanyManpower = ({ title, sub }) => {
       .then((response) => setList(response));
   }, []);
 
-  const manPower = list.map((item) => {
-    return <ManPowerItem key={item.id} item={item} />;
-  });
   return (
     <div>
       <CompanyHeader title={title} sub={sub} />
@@ -24,7 +21,11 @@ const CompanyManpower = ({ title, sub }) => {
           <div className='company-title-line'></div>
         </div>
         <div className='manpower-outbox'>
-          {manPower} {/* manPower.js 파일 삽입 */}
+          <div className='manpower-profile-wrap'>
+            {list.map((ele) => (
+              <CompanyManAcco key={ele.id} item={ele} />
+            ))}
+          </div>
         </div>
       </div>
       <DetailFooter />

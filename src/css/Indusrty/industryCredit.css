@@ -39,7 +39,8 @@
 }
 
 .industry-credit-img {
-    width: 800px;
+    width: 100%;
+    height: auto;
 }
 
 .industry-credit-img img {
@@ -128,9 +129,12 @@
 #Industrycredit5 .industry-credit-sub{
     width: 90%;
 }
-.industry-credit-img {
+.industry-credit-img{
     width: 100%;
+    height: auto;
 }
+
+
 
 
 #Industrycredit1,
@@ -152,5 +156,6 @@
 }
 .detail-tab-lists{
     overflow: hidden;
+   /*  font-size: 14px; */
 }
 }

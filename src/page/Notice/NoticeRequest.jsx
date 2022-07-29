@@ -7,8 +7,6 @@ import categoryData from '../../component/Notice/NoticeRequestCategoryData';
 import { handleCategoryFnc } from '../../component/Notice/noticeRequestFnc';
 import { handleInputFnc } from '../../component/Notice/noticeRequestFnc';
 import { handleChkBoxFnc } from '../../component/Notice/noticeRequestFnc';
-import { submitFnc } from '../../component/Notice/noticeRequestFnc';
-import { goBack } from '../../component/Notice/noticeRequestFnc';
 
 const NoticeRequest = ({title, sub}) => {
   const navigate = useNavigate();
@@ -33,7 +31,7 @@ const NoticeRequest = ({title, sub}) => {
     // form 제출 함수
     e.preventDefault();
     alert('작성하신 컨설팅요청이 전송되었습니다. 메인페이지로 이동합니다.');
-    // 이메일로? 암튼 컨설팅 form이 처리되는 로직 추가
+    // form 처리 로직 추가
     navigate('/'); 
   }
   const goBack = () => {
@@ -45,10 +43,7 @@ const NoticeRequest = ({title, sub}) => {
       <NoticeHeader title={title} sub={sub}/>
 
       <div id="SubInner">
-        <div className="company-title-container">
-          <h2 className="company-title">컨설팅신청</h2>
-          <div className="company-title-line"></div>
-        </div>
+        <h2 className='detail-title'>컨설팅 신청</h2>
         <span className='notice-request-refer'>&#42; 는 필수 작성</span>
         <form action="" id='requestForm' onSubmit={submitFnc}>
           <table className='request-form-table'>

@@ -1,0 +1,225 @@
+/* info css */
+
+#fullpageInfo{
+    margin: auto;
+    background: url(./../../../../public/img/mainFullpage/mainFullpageInfo/infobg.png) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+#fullpageInfo #MainInner{
+    height: 100%;
+    padding-top: 110px;
+}
+
+#fullpageInfo .main-info-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#fullpageInfo .main-info-box{
+    position: relative;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+#fullpageInfo .main-info-title {
+    position: relative;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #363636;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+
+#fullpageInfo .main-info-title span {
+    position: absolute;
+    left: 4.5%;
+    top: -50%;
+    z-index: -9999;
+    color: #efefef;;
+  }
+
+#fullpageInfo .fullpageInfo-boxs {
+    display: grid;
+    grid-template-rows:  repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 43px; 
+    margin: auto;
+    position: relative;
+   
+
+ }
+
+#fullpageInfo .b-inner{
+      width: 800px;
+      height: auto;
+      margin: auto;
+  }
+
+ #fullpageInfo .ir-box{
+      margin: auto;
+      width: 320px;
+      height: 200px;
+      border-radius: 5px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      box-shadow: 10px 10px 20px grey;
+      box-sizing: border-box;
+      position: relative;
+  }
+#fullpageInfo .detail-box{
+    width: 100px;
+   /*  border-radius: 5px; */
+  /*   border-bottom: 2px solid #fefefe; */
+    color: #fefefe;
+    margin-left: 60%;
+    margin-top: 10%; 
+    position: absolute;
+    top: 40%;
+    left: 0%;
+
+}
+#fullpageInfo .ir-box .info-detail{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    display: none;
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    transition-delay: 0.5s;
+    transition-duration: 5s;
+}
+
+#fullpageInfo .ir-box:hover .info-detail{
+    display: block;
+    transform: translateY(-50%);
+    width: 320px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #363636;
+    transition-delay: 0.5s;
+    transition-duration: 10s;
+
+}
+
+/* 색깔별 다른 부분 */
+    #navy{
+        background-color: rgba(43, 53, 64, 0.8) ;
+        color: #fefefe;
+    }
+    #ivy{
+        background-color: rgba(217, 217, 217, 0.8) ;
+        color: rgb(43, 53, 64);
+    }
+    #ivy h2, #ivy p{
+       color: rgb(43, 53, 64);
+    }
+    #ivy .detail-box{
+        border-bottom: 2px solid rgb(43, 53, 64);
+         color: rgb(43, 53, 64);
+    }
+   #ivy .detail-box p{
+    color: rgb(43, 53, 64);
+   }
+   #navy-arrow{
+    color: rgb(43, 53, 64);
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 5px;
+    }
+
+#fullpageInfo  .ir-box h2{
+      font-size: 1.875rem;
+      font-weight: bold;
+      padding-bottom: 5%; 
+      position: absolute;
+      top: 20%;
+      transition-duration: 5s;
+  }
+
+#fullpageInfo .detail-box p{
+    text-align: center;
+    padding: 5%;
+}
+
+/* 서브박스 */
+#fullpageInfo .ir-box:last-child{
+    padding: 20px;
+}
+#fullpageInfo .sub-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:space-between;
+}
+#fullpageInfo .detail-box1{
+    width: 100px;
+  /*   border-bottom: 5px solid rgb(43, 53, 64); */
+    color: #fefefe;
+    margin : 25px 15px;
+}
+#fullpageInfo .detail-box1 p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#fullpageInfo #info-icons{
+    font-size: 40px;
+}
+#fullpageInfo #blind{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#fullpageInfo #light-txt{
+    font-size: 1.825rem;
+}
+/* 미디어쿼리 */
+
+
+@media screen and (max-width: 765px) {
+    #fullpageInfo .ir-box{
+        width: 160px;
+        height: 100px;
+    }
+    #fullpageInfo .fullpageInfo-boxs {
+        grid-template-columns: repeat(2, 2fr);
+        flex-wrap: wrap;
+        font-size: 0.5rem;
+      }
+      #fullpageInfo .detail-box{
+          border: none;
+      }
+      #fullpageInfo .detail-box{
+      font-size: 1rem;
+      font-weight: bold;
+      padding-bottom: 5%;
+        }
+      #fullpageInfo  .ir-box>h2{
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding-bottom: 5%;
+        padding-top: 7%;
+        }
+    #fullpageInfo .ir-box .info-detail{
+        font-size: 0.3rem;
+        line-height: 1.2;
+    }
+    #fullpageInfo #blind{
+        display: none;
+    }
+
+    
+  }

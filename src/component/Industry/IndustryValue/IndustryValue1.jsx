@@ -7,7 +7,7 @@ const IndustryValue1 = () => {
          <section className='industry-value-section'>
              <h2 className='industry-value-part'>기술금융의 목적</h2>
              <p className='industry-value-part-txt'>기술금융은 기업의 재무정보 이외에 기술정보를 추가로 고려함으로써 신용도 판단 예측 의 정확성을 높이고,<br />담보력이 부족한 벤처창업기업을 대상으로 기술평가 전문기관의 기 술성∙사업성 평가를 통해 금융기관의 사업화 자금 대출 및 펀드운용사의 투자를 지원함으로써,<br />중소기업 및 벤처 &#183; 창업기업의 성장을 지원하고 개발기술의 사업화를 추진하는 데 목적이 있다.</p>
-             <div className="industry-support-img"><img src="/img/Industry/IndustrySupport/IndustrySupport1.png" alt="기술금융의 단계" /></div>
+             <div className="industry-value-img"><img src="/img/Industry/IndustrySupport/IndustrySupport1.png" alt="기술금융의 단계" /></div>
              <span className='industry-support1-refer'>* TCB : Tech Credit Bureau (기술신용평가기관)</span><br />
              <span className='industry-support1-refer'>* TDB : Tech Data Base(기술금융데이터베이스)</span><br />
              <span className='industry-support1-refer'>* IP : Intellectual Property(지적(지식)재산권 : 특허, 실용신안 디자인, 상표, 저작권 등)</span><br />

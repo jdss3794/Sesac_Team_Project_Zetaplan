@@ -32,7 +32,7 @@ const AbroadProcess = ({title, sub}) => {
       <AbroadHeader title={title} sub={sub} />
 
       <div id="SubInner">
-        <h2 className="detail-title">해외지사 사업</h2>
+        <h2 className="detail-title">해외 지사 사업</h2>
 
         <nav className='detail-tab-lists'>
           {MAP_DATA_ABROAD.map((ele)=>{

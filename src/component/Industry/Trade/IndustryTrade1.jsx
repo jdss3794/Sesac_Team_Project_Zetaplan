@@ -41,16 +41,16 @@ const IndustryTrade1 = () => {
                 저희 제타플랜은 정부산하기관 기술개발조직, 기업 및 개인을 통해 기술거래를 진행하고 있으며, 세계 경제대국으로 부상한 중국과 동남아 거점인 베트남과 협력해오고 있습니다. </p>
                 <Swiper
               autoplay={{
-                delay: 1800,
+                delay: 2400,
                 disableOnInteraction: false,
               }}
-              slidesPerView={4}
+              slidesPerView={3}
               spaceBetween={20}
               slidesPerGroup={1}
               loop={true}
               loopFillGroupWithBlank={true}
               modules={[Autoplay]}
-              className="mySwiper"
+              className="swiper-slide"
             >
               <SwiperSlide> <img src="/img/Industry/IndustryTrade/tradeimg01.png" alt="tradeimg" /> </SwiperSlide>
               <SwiperSlide> <img src="/img/Industry/IndustryTrade/tradeimg02.png" alt="tradeimg" /> </SwiperSlide>

@@ -6,17 +6,17 @@ export const MAP_DATA_VALUE = [
   },
   {
   id: 2,
-  text: 'TCB 기술평가대출',
+  text: 'TCB기술평가',
   name: 'second',
   },
   {
     id: 3,
-    text: '기술가치평가IP담보대출',
+    text: 'IP담보대출',
     name: 'third',
   },
   {
     id: 4,
-    text: '지식재산창출보증',
+    text: '지식재산보증',
     name: 'fourth',
   },
   {

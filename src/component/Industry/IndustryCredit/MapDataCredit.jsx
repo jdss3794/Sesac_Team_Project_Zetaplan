@@ -16,7 +16,7 @@ export const MAP_DATA_CREDIT = [
   },
   {
     id: 4,
-    text: '아파트 입찰용 신용평가',
+    text: '아파트입찰용 신용평가',
     name: 'fourth',
   },
   {

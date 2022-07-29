@@ -8,14 +8,14 @@ import Pagination from './Pagination';
 import '../../css/Notice/NoticeList.css';
 import BoardSearch4 from '../../component/Search/BoardSearch4';
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+
 const NoticeInfo = ({ title, sub, id }) => {
   const [lists, setLists] = useState([]);
   const LIST_PER_PAGE = 20; // 한장에 보여질 리스트 수
   const [page, setPage] = useState(1); // 페이지
   const startNum = (page - 1) * LIST_PER_PAGE; // 0 10 20 30
   const endNum = startNum + LIST_PER_PAGE; // 10 20 30 40
-  const navigate = useNavigate();
+
   useEffect(() => {
     fetch('/data/consulting.json')
       .then((response) => response.json())

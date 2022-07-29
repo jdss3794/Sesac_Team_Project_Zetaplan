@@ -1,5 +1,7 @@
 import React from 'react';
 import './MainFullPageAbroad.css';
+import AOS from "aos"; 
+import "aos/dist/aos.css";
 
 const MainFullPageAbroad = () => {
   return (
@@ -10,7 +12,7 @@ const MainFullPageAbroad = () => {
             해외진출
             <span>ABROAD</span>
           </h2>
-          <div className="abroad-bg"></div>
+          <div className="abroad-bg" data-aos='fade-up'></div>
         </div>
       </div>
     </div>

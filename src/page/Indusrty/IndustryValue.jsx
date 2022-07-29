@@ -40,7 +40,7 @@ const IndustryValue = ({title, sub}) => {
       <IndustryHeader title={title} sub={sub} />
       <div id='SubInner'>
           <h2 className='detail-title'>가치평가</h2>
-        <nav className='detail-tab-lists'>
+        <nav className='detail-tab-lists  valueTab'>
           {MAP_DATA_VALUE.map(data => {
           return (
             <button className={content === data.name? 'detail-tab-list active' : 'detail-tab-list'} onClick={buttonValueSetting} name={data.name} key={data.id}>

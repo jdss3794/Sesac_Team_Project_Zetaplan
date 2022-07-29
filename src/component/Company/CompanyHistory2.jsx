@@ -113,6 +113,9 @@ const CompanyHistory2 = ({ title, year, month }) => {
                     </li>
                   );
                 })}
+                <li class="history-line">
+                <span class="bar"></span>
+                </li>
         </ul>
 
     </div>

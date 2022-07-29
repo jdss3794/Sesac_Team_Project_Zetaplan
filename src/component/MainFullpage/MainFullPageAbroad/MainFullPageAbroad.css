@@ -49,13 +49,9 @@
   }
   #fullpageAbroad .main-abroad-container {
     width: 100%;
-    height: 340px;
+    height: 430px;
   }
   #fullpageAbroad .main-abroad-title {
     font-size: 1.5rem;
-  }
-  #fullpageAbroad .abroad-bg {
-    left: -35vw;
-    width: 180%;
   }
 }

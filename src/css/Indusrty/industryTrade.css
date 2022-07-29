@@ -92,11 +92,11 @@
   /* ============ trade slider && img ========== */
 
 
-#Trade .swiper-slide {
+#IndustryTrade .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  height: 50px;
+  height: 200px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -113,12 +113,15 @@
   align-items: center;
 }
 
-#Trade .swiper-slide img {
+#IndustryTrade .swiper-slide img {
   display: block;
   width: 350px;
-  height: 200px;
+  height: 180px;
   padding-left: 10px;
   /* object-fit: cover; */
+}
+#IndustryTrade .swiper-slide img:first-child{
+  padding-left: 0px;
 }
 
 #Trade img{
@@ -139,13 +142,14 @@
 
 #Trade table {
   width: 100%;
-  border: 2px solid #2c3540;
+  border: 1px solid #2c3540;
   text-align: left;
   border-collapse: collapse;
+  margin-top: 30px;
 }
 #Trade table th,
 #Trade table td {
-  border: 2px solid #2c3540;
+  border: 1px solid #2c3540;
 }
 #Trade table th {
   text-align: center;
@@ -166,6 +170,8 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+
 @media (max-width: 765px) {
   #Trade {
     width: 100%;
@@ -173,5 +179,8 @@
   #Trade img, #img0{
     width: 100%;
     display: none;
+  }
+  #IndustryTrade .swiper-slide img {
+    width: 100%;
   }
 }

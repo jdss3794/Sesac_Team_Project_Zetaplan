@@ -17,7 +17,7 @@ const AbroadInfo = ({title, sub}) => {
 
       <div id='SubInner'>
         <h2 className='detail-title'>
-          해외진출 사업
+          해외 진출 사업
         </h2>
         <section className='abroad-info'>
           <h4 className='abroad-title'>
