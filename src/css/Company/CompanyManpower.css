@@ -264,7 +264,9 @@
     border-radius: 50%;
   }
   .accordion-profile h4 {
-    font-size: 14px;
+    font-size: 12px;
+    height: 25%;
+    line-height: 30px;
   }
   .accordion-profile h5 {
     font-size: 12px;
