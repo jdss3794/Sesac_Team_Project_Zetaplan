@@ -1,6 +1,7 @@
 import React from 'react';
 import './mainFullpageInfo.css';
 import { ImArrowRight2 } from 'react-icons/im';
+import { BsArrowRightSquare } from 'react-icons/bs';
 import {AiOutlineBank, AiOutlineBarChart, AiOutlineFileText, AiOutlineLineChart} from 'react-icons/ai';
 import {IoMdAirplane} from 'react-icons/io';
 import AOS from "aos"; 
@@ -8,6 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from 'react';
 import { GrNext } from 'react-icons/gr';
 import AnimatedNumbers from "react-animated-numbers";
+import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const MainFullpageInfo = () => {
   
@@ -69,6 +71,7 @@ const [num5, setNum5] = React.useState(5231);
                                         국,내외 투자기관 네트워크로 <br />
                                         최적의 IR을 지원합니다
                                         </dd>
+                                        <IoIosArrowDroprightCircle size={"30px"} />
                                     </dl>
                             </div>
                         </a>
@@ -103,7 +106,7 @@ const [num5, setNum5] = React.useState(5231);
                                         제휴 네트워크의 IB, 로펌, <br /> 회계법인으로
                                         구성된  <br /> 최고의 M&A 팀 
                                         </dd>
-                                         <GrNext size='1.8rem' fill='#efefef' id='more-icon'/> 
+                                        <IoIosArrowDroprightCircle size={"30px"} />
                                     </dl>
                             </div>
                             </a>
@@ -141,6 +144,7 @@ const [num5, setNum5] = React.useState(5231);
                                         최적의 IPO 절차 <br />
                                         컨설팅을 제공합니다
                                         </dd>
+                                        <IoIosArrowDroprightCircle size={"30px"} />
                                     </dl>
                               </div>
                             </a>
@@ -177,6 +181,8 @@ const [num5, setNum5] = React.useState(5231);
                                         해법을 제공하여<br />
                                         성공적인 해외진출
                                         </dd>
+                                        <IoIosArrowDroprightCircle size={"30px"} />
+
                                     </dl>
               
                             </div>
@@ -213,6 +219,8 @@ const [num5, setNum5] = React.useState(5231);
                                         이익의 최대화를 실현하는 <br />
                                         비즈니스 컨설팅
                                         </dd>
+                                        <IoIosArrowDroprightCircle size={"30px"} />
+
                                     </dl>
                             </div>
                            </a>

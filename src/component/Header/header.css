@@ -341,11 +341,12 @@ background-size .3s calc(.3s - var(--_s, 0s));
         width: 100%;
     }
     #MainInner {
-        width: 80% !important;
+        width: 100% !important;
     }
     #Header .header-left {
         display: flex;
         justify-content: flex-start;
+        margin-right: 18%;
     }
     #Header .header-nav-wrap .main-nav {
         display: none;

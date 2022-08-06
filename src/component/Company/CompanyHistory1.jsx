@@ -11,6 +11,7 @@ const CompanyHistory1 = ({ title, year, month }) => {
   
   const data1 = lists.filter((item)=> item.year === 2021); 
   const data2 = lists.filter((item)=> item.year === 2020); 
+  
 
     return (
         <div id='history1'>
